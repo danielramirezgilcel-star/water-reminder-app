@@ -1,0 +1,8 @@
+La aplicación programa un WorkRequest periódico utilizando WorkManager.
+
+Cuando el usuario presiona el botón "Activar recordatorio",
+se agenda una tarea en segundo plano que muestra una notificación del sistema con el mensaje:
+
+"¡Es hora de beber agua!"
+
+La notificación puede ejecutarse incluso si la aplicación está cerrada.
