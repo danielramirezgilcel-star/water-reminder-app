@@ -26,6 +26,13 @@ fun ReminderUI(
             fontSize = 28.sp
         )
 
+        Spacer(modifier = Modifier.height(10.dp))
+
+        Text(
+            text = "El agua es esencial para tu salud. ¡No olvides mantenerte hidratado!",
+            fontSize = 16.sp
+        )
+
         Spacer(modifier = Modifier.height(20.dp))
 
         Button(
